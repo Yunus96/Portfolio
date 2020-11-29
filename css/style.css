@@ -17,6 +17,11 @@ a{
     height: 100vh;
     box-sizing: border-box;
     background-color: #edf1fd;
+    position: relative;
+    background-image: url("../images/bg.png  ");
+    background-repeat: no-repeat;
+    background-size: 1130px;
+    background-position: right bottom;
 }
 nav{
     display: flex;
@@ -51,11 +56,61 @@ nav{
     font-size: 25px;
     font-weight: bold;
     color: #292929;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 .menu li a:hover{
     background-color: #292929;
     color: #ffffff !important;
     font-weight: 700;
     transition: all ease 0.4s;
+}
+.name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+.name p:nth-child(1),
+.name .details{
+    color: #6c707c;
+    font-size: 16px;
+}
+.name h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #292929; 
+}
+.cv-btn{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292929;
+    color: #ffffff;
+}
+.cv-btn:hover{
+    background-color: #131313;
+    transition: all ease 0.5;
+}
+.social{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    display: flex;   
+}
+.social a{
+    margin: 6px 12px;
+}
+.social i{
+    color: rgba(18, 17, 17, 0.4);
+    font-size: 14px ;
+}
+.social a:hover i{
+    color: #17d1ac;
+    transition: all ease 0.5s;
 }
