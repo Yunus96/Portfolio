@@ -51,6 +51,7 @@ nav{
 }
 .lang{
     color: #292929;
+    padding-left: 5px;
 }
 .logo{
     font-size: 25px;
@@ -186,6 +187,7 @@ nav{
     align-items: center;
     justify-content: center;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 .s-heading h1{
     color: #ffffff;
@@ -278,6 +280,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 60px 2% 20px 2%;
+    margin-bottom: 20px;
 }
 .p-heading{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -291,7 +294,61 @@ nav{
     border-radius: 3px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
 }
-
+.contact-section{
+    background-color:  #edf1fd;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(234, 234, 234);
+    padding: 0px 25%;
+    font-weight: 700;
+    font-size: larger;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 100px;
+}
+.contact-button{
+    padding-top: 15px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 0, 120);
+    border: none;
+    width: 200px;
+    height: 45px;
+    margin: 0px;
+    font-weight: 350;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    background-color: #edf1fd;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.footer-div{
+    width: 1200px;
+    max-width: 100%;
+    padding: 0px 5%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
 
 
 
